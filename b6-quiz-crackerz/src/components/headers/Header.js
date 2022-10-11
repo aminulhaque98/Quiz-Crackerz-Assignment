@@ -1,16 +1,22 @@
 import React from 'react';
-import './Header.css'
+import './Header.css';
+import { Link } from 'react-router-dom';
+
 const Header = () => {
     return (
-        <nav className='header'>
-            <h2 className='text-4xl font-bold text-blue-300'>JCH Quizzy Contest</h2>
-            <div>
-                <a href="/home">Home</a>
-                <a href="/static">Static</a>
-                <a href="/about">About us</a>
-                <a href="/blog">Blog</a>
-            </div>
-        </nav>
+        <div>
+            <nav className='header bg-gradient-to-r from-purple-300 to-pink-500 '>
+                <h2 className='text-4xl font-bold text-sky-500'>JCH Quizzy Contest</h2>
+                <div>
+                    <Link to="/home"> Home </Link>
+                    <Link to="/statistic">Statistic</Link>
+                    <Link to="/about">About us</Link>
+                    <Link to="/blog">Blog</Link>
+                </div>
+            </nav>
+            <h3 className='text-3xl text-center'>common header</h3>
+        </div>
+
     );
 };
 

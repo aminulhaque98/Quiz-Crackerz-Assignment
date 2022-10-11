@@ -1,17 +1,13 @@
 .header {
     height: 80px;
-    background-color: #1C2B35;
     display: flex;
+    box-shadow: 5px 10px 18px #888484;
     align-items: center;
     justify-content: space-between;
     padding-left: 140px;
     padding-right: 140px;
 }
 
-/* .header h2 {
-    color: #FFFFFF;
-    font-size: 40px;
-} */
 
 .header a {
     color: #FFFFFF;
