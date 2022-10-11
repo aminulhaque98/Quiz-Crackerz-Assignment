@@ -30,6 +30,9 @@ function App() {
         }
       ]
     },
+    {
+      path: '*', element: <div>This route not found:404</div>
+    }
 
   ])
 
