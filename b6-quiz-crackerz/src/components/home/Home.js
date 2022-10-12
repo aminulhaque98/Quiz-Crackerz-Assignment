@@ -5,13 +5,14 @@ import './Home.css';
 
 const Home = () => {
     const quizTopics = useLoaderData();
-    // console.log('paici', quizTopics)
+    console.log('paici', quizTopics)
     return (
         <div>
             <h3 className='text-3xl text-center'>common header</h3>
-            <div className='flex homeComponent '>
+
+            <div className='flex homeComponent'>
                 {
-                    quizTopics.data.map(quizTopic => <Homes key={quizTopic.id}
+                    quizTopics?.data?.map(quizTopic => <Homes key={quizTopic.id}
                         quizTopic={quizTopic}
                     ></Homes>)
                 }

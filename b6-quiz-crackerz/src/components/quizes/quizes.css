@@ -1,0 +1,15 @@
+.quizComponant {
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid grey;
+    background-color: azure;
+    gap: 20px;
+}
+
+.btmRadio {
+    border: 2px solid yellowgreen;
+    padding: 10px;
+    /* background-color: darkmagenta; */
+}
