@@ -8,7 +8,8 @@ const Header = () => {
             <nav className='header bg-gradient-to-r from-purple-300 to-pink-500 '>
                 <div className='title flex '>
                     <img src="../../faviconJCH.png" alt="" />
-                    <h2 className=' text-4xl font-bold text-sky-500 m-1'>   JCH Quizzy Contest</h2></div>
+                    <h2 className=' text-4xl font-bold text-sky-500 m-1'>   JCH Quizzy Contest</h2>
+                </div>
                 <div>
                     <Link to="/home"> Home </Link>
                     <Link to="/statistic">Statistic</Link>
@@ -16,7 +17,7 @@ const Header = () => {
                     <Link to="/blog">Blog</Link>
                 </div>
             </nav>
-            <h3 className='text-3xl text-center'>common header</h3>
+
         </div>
 
     );

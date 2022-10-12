@@ -1,9 +1,21 @@
 import React from 'react';
+import { useLoaderData } from 'react-router-dom';
+import Homes from '../homes/Homes';
 
 const Home = () => {
+    const quizTopics = useLoaderData();
+    // console.log('paici', quizTopics)
     return (
         <div>
-            <h2>this is home components</h2>
+            <h3 className='text-3xl text-center'>common header</h3>
+            <div className='flex'>
+                {
+                    quizTopics.data.map(quizTopic => <Homes key={quizTopic.id}
+                        quizTopic={quizTopic}
+                    ></Homes>)
+                }
+            </div>
+
         </div>
     );
 };

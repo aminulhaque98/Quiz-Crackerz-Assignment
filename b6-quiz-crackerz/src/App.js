@@ -13,7 +13,14 @@ function App() {
       path: '/',
       element: <Main></Main>, children: [
         {
+          path: '/',
+          element: <Home></Home>
+        },
+        {
           path: '/home',
+          loader: async () => {
+            return fetch('https://openapi.programming-hero.com/api/quiz')
+          },
           element: <Home></Home>
         },
         {
@@ -31,7 +38,7 @@ function App() {
       ]
     },
     {
-      path: '*', element: <div>This route not found:404</div>
+      path: '*', element: <div className='text-xl mt-96 text-center'>This route not found:404</div>
     }
 
   ])
