@@ -4,18 +4,15 @@ import Quizes from '../quizes/Quizes';
 
 const Quiz = () => {
     const quizes = useLoaderData();
-    console.log(quizes.data.questions);
-    // const { question, options
-    //     , correctAnswer
-    // } = quizes.data.questions;
-    // console.log(question)
+    // console.log(quizes.data.questions);
 
     return (
         <div>
-            <h2 className='text-2xl'>this is the quiz componant:{quizes.data.question
-            }</h2>
+            {/* <h2 className='text-2xl'>this is the quiz componant:{quizes.data.question
+            }</h2> */}
+
             {
-                quizes.data.questions.map(quiz => <Quizes
+                quizes?.data?.questions.map(quiz => <Quizes
                     key={quiz.id}
                     quiz={quiz}
                 ></Quizes>)
