@@ -14,20 +14,23 @@ const Quizes = ({ quiz }) => {
     }
 
     return (
-        <div className='quizComponant gap-y-4'>
-            <button className=''>eye</button>
+        <div>
 
-            <h2 className='text-2xl'>quiz:{ },{question}</h2>
+            <div className='quizComponant gap-y-4'>
+                <button onClick={() => handleRadioBtn(correctAnswer)} className=''>eye</button>
 
-            <div className='text-lg grid grid-cols-2 gap-y-4 gap-x-2'>
+                <h2 className='text-2xl'>quiz:{ },{question}</h2>
 
-                {
-                    options.map(option => <label for="java" className='btmRadio text-2xl text-bold  h-32'><input className='text-4xl' type="radio" id="java" name={id} key={option} value="JavaScript" />
-                        <span onClick={() => handleRadioBtn(option)}>{option}</span>
-                    </label>
-                    )
-                }
+                <div className='text-lg grid grid-cols-2 gap-y-4 gap-x-2'>
 
+                    {
+                        options.map(option => <label for="java" className='btmRadio text-2xl text-bold  h-32'><input className='text-4xl' type="radio" id="java" name={id} key={option} value="JavaScript" />
+                            <span onClick={() => handleRadioBtn(option)}>{option}</span>
+                        </label>
+                        )
+                    }
+
+                </div>
             </div>
         </div>
 
