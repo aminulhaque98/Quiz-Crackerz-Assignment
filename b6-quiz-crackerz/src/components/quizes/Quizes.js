@@ -1,14 +1,19 @@
 import React from 'react';
 import './quizes.css'
 
+
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 const Quizes = ({ quiz }) => {
     const { options, question, id, correctAnswer } = quiz
     console.log(quiz)
-
+    const notify = () => toast(correctAnswer);
 
     const handleRadioBtn = (props) => {
         if (props === correctAnswer) {
             console.log('right')
+            notify()
         }
         else { console.log('wrong') }
     }
@@ -29,9 +34,9 @@ const Quizes = ({ quiz }) => {
                         </label>
                         )
                     }
-
                 </div>
             </div>
+            <ToastContainer />
         </div>
 
 
