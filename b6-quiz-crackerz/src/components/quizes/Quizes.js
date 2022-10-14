@@ -9,9 +9,6 @@ const Quizes = ({ quiz }) => {
     const { options, question, id, correctAnswer } = quiz
     console.log(quiz);
 
-    const [inputs, setInputs] = useState([]);
-    const [number, setNumber] = useState("");
-
     const notify = () => toast(correctAnswer);
     const right = () => toast("This Is Correct Answer");
     const wrong = () => toast("This Is Wrong Answer");
@@ -19,11 +16,15 @@ const Quizes = ({ quiz }) => {
     const handleRadioBtn = (props) => {
         if (props === correctAnswer) {
             right()
+
         }
         else {
             wrong()
+
         }
     }
+
+    // className={option === correctAnswer ? `green` : `red`}
 
     const getId = id;
     const getNumber = getId.slice(23);
@@ -33,6 +34,7 @@ const Quizes = ({ quiz }) => {
 
 
     return (
+
         <div>
 
             <div className='quizComponant gap-y-4'>
@@ -51,7 +53,7 @@ const Quizes = ({ quiz }) => {
                 <div className='text-lg grid grid-cols-2 gap-y-4 gap-x-2'>
 
                     {
-                        options.map(option => <label for="java" className='btmRadio text-2xl text-bold  h-32'><input className='text-4xl' type="radio" id="java" name={id} key={option} value="JavaScript" />
+                        options.map(option => <label for="java" className='btmRadio text-2xl text-bold  h-32' ><input className='text-4xl' type="radio" id="java" name={id} key={option} value="JavaScript" />
                             <span onClick={() => handleRadioBtn(option)}>{option}</span>
                         </label>
                         )

@@ -13,3 +13,11 @@
     padding: 10px;
     /* background-color: darkmagenta; */
 }
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}

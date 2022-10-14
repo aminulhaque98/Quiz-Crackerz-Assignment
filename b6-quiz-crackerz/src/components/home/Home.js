@@ -10,7 +10,7 @@ const Home = () => {
         <div>
             <header className='flex text-center justify-center m-12 gap-12'>
                 <div className='text-blue-600 text-xl'>
-                    <h3 className='text-4xl '>Shawon Ahmed</h3>
+                    <h3 className='text-4xl '>Jubayer Ahmed Shipon</h3>
                     <small>Web Devoloper</small>
                     <p>He Is A Famous Font End Web Devoloper  in Sylhet </p>
                 </div>
