@@ -10,7 +10,7 @@ const Header = () => {
                     <img src="../../faviconJCH.png" alt="" />
                     <h2 className=' text-4xl font-bold text-sky-500 m-1'>   JCH Quizzy Contest</h2>
                 </div>
-                <div>
+                <div className=''>
                     <Link to="/home"> Home </Link>
                     <Link to="/statistic">Statistic</Link>
                     <Link to="/about">About us</Link>

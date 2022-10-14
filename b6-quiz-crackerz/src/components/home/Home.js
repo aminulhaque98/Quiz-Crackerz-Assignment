@@ -8,7 +8,7 @@ const Home = () => {
     console.log('paici', quizTopics)
     return (
         <div>
-            <header className='flex text-center justify-center m-12 gap-12'>
+            <header className='flex text-center justify-center m-12 gap-12 '>
                 <div className='text-blue-600 text-xl'>
                     <h3 className='text-4xl '>Jubayer Ahmed Shipon</h3>
                     <small>Web Devoloper</small>
@@ -18,7 +18,7 @@ const Home = () => {
                     <img className='w-48 rounded-lg drop-shadow-2xl' src={require('../../shawon.jpg')} alt="" />
                 </div>
             </header>
-            <div className='flex homeComponent'>
+            <div className='flex homeComponent '>
                 {/* <h1>Let's Play a Quiz </h1> */}
 
                 {
