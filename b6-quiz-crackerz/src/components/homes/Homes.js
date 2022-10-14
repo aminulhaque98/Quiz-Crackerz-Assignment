@@ -12,7 +12,7 @@ const Homes = ({ quizTopic }) => {
 
                 <p className='absolute text-black-900 hover:text-rose-500 text-xl' >Quiz:{total}</p>
 
-                <Link to={`/home/${id}`}><button className='absolute mx-48 my-56 bg-sky-500/100 hover:bg-rose-900 text-3xl text-white p-2 rounded-lg'>Questions</button></Link>
+                <Link to={`/home/${id}`}><button className='absolute md:mx-48 md:my-56 sm:my-48 sm:mx-32 bg-sky-500/100 hover:bg-rose-900 text-3xl text-white p-2 rounded-lg'>Questions</button></Link>
             </div>
             <img className='static' src={logo} alt="" />
 
