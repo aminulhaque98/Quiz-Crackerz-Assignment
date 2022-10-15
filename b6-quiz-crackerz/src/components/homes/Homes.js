@@ -7,7 +7,7 @@ const Homes = ({ quizTopic }) => {
 
     return (
         <div>
-            <div className=''>
+            <div className='xs:flex flex-wrap'>
                 <h3 className='absolute text-black-900 hover:text-white text-3xl mx-16 my-16'>{name}</h3>
 
                 <p className='absolute text-black-900 hover:text-rose-500 text-xl' >Quiz:{total}</p>

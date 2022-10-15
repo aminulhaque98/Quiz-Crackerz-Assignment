@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div className='flex text-center justify-center m-12 gap-12'>
+        <div className='flex flex-wrap text-center justify-center m-12 gap-12'>
             <div>
                 <img className='w-48 rounded-lg drop-shadow-2xl' src={require('../../Aminulpic120x150.jpg')} alt="" />
             </div>

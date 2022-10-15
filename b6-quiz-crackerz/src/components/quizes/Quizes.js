@@ -8,6 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const Quizes = ({ quiz }) => {
     const { options, question, id, correctAnswer } = quiz
     console.log(quiz);
+    const [quizzz, setQuizzz] = useState(0)
 
     const notify = () => toast(correctAnswer);
     const right = () => toast("This Is Correct Answer");
@@ -53,7 +54,7 @@ const Quizes = ({ quiz }) => {
                 <div className='text-lg grid grid-cols-2  gap-y-4 gap-x-2'>
 
                     {
-                        options.map(option => <label for="java" className='btmRadio text-2xl text-bold  h-32' ><input className='text-4xl' type="radio" id="java" name={id} key={option} value="JavaScript" />
+                        options.map(option => <label for={() => setQuizzz(Math.floor(Math.random() * 100))} className='btmRadio text-2xl text-bold  h-32' ><input className='text-4xl' type="radio" id={quizzz} name={id} key={option} value="JavaScript" />
                             <span onClick={() => handleRadioBtn(option)}>{option}</span>
                         </label>
                         )

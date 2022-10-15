@@ -16,7 +16,7 @@ const Blog = () => {
             </header>
             <hr className='border my-12 text-gray w-full text-2xl' />
 
-            <div className=' flex flex-wrap gap-12 '>
+            <div className=' flex flex-wrap gap-12 text-center justify-center'>
                 <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 mb-4 bg-red-200 p-4 rounded-lg drop-shadow-2xl'>
                     <h2 className='text-2xl text-blue-600 w-bold m-4'>What is the of react router?</h2>
 
