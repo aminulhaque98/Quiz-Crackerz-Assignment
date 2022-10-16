@@ -18,7 +18,7 @@ const Home = () => {
                     <img className='w-48 rounded-lg drop-shadow-2xl' src={require('../../shawon.jpg')} alt="" />
                 </div>
             </header>
-            <div className='flex flex-wrap homeComponent '>
+            <div className='flex flex-wrap homeComponent'>
                 {/* <h1>Let's Play a Quiz </h1> */}
 
                 {

@@ -51,7 +51,7 @@ const Quizes = ({ quiz }) => {
 
                 <h2 className='text-2xl text-center my-12 text-blue-700 font-semibold'>{questionRemoveTag}</h2>
 
-                <div className='text-lg grid grid-cols-2  gap-y-4 gap-x-2'>
+                <div className='text-lg grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-y-4 gap-x-2'>
 
                     {
                         options.map(option => <label for={() => setQuizzz(Math.floor(Math.random() * 100))} className='btmRadio text-2xl text-bold  h-32' ><input className='text-4xl' type="radio" id={quizzz} name={id} key={option} value="JavaScript" />
