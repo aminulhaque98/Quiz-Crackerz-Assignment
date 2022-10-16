@@ -5,7 +5,6 @@ import './Home.css';
 
 const Home = () => {
     const quizTopics = useLoaderData();
-    console.log('paici', quizTopics)
     return (
         <div>
             <header className='flex flex-wrap text-center justify-center m-12 gap-12 '>

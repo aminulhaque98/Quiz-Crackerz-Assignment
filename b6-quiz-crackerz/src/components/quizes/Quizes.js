@@ -6,8 +6,8 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Quizes = ({ quiz }) => {
-    const { options, question, id, correctAnswer } = quiz
-    console.log(quiz);
+    const { options, question, id, correctAnswer } = quiz;
+
     const [quizzz, setQuizzz] = useState(0)
 
     const notify = () => toast(correctAnswer);

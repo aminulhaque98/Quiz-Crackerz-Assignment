@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 const Homes = ({ quizTopic }) => {
     const { name, logo, id, total } = quizTopic;
-    console.log(quizTopic);
 
     return (
         <div>
