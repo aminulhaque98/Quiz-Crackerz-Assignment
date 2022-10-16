@@ -7,8 +7,8 @@ b6-quiz-crackerz-aminulhaque98 created by GitHub Classroom
 
  ## https://github.com/programming-hero-web-course2/b6-quiz-crackerz-aminulhaque98
 
-## My quiz-crackerz Webpage link:
-
+## My quiz-crackers live Webpage link:
+https://634c54d6f1aa3e37bcf4974b--luminous-naiad-c5225b.netlify.app/
 
 ## my project information here
 
