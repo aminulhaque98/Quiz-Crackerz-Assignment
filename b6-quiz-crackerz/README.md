@@ -5,7 +5,7 @@ b6-quiz-crackerz-aminulhaque98 created by GitHub Classroom
 
 ### My private repo link:
 
- ## https://github.com/programming-hero-web-course2/b6-quiz-crackerz-aminulhaque98
+  https://github.com/programming-hero-web-course2/b6-quiz-crackerz-aminulhaque98
 
 ## My quiz-crackers live Webpage link:
 https://634c54d6f1aa3e37bcf4974b--luminous-naiad-c5225b.netlify.app/
